@@ -1,0 +1,4 @@
+Q1: the orchestrator did it, because replicas has 4 declares desired state and a control loop keeps actual state matching it.
+Q2: the reason to choose swarm is that it's simple and doesn't have a very steep learning curve as compared to kubernetes and the reason to pick K3s is that it's lightweight and is more suitable to use on laptops and such
+Q3: old and new pods overlap and that only ready pods receive traffic through the Service, and that the replacement happens a few pods at a time.
+
